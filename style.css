@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+.container {
+  border: 5px solid black;
+  width: 600px;
+  height: 800px;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+.merah {
+  background: red;
+  position: absolute;
+  right: -1px;
+}
+.biru {
+  background: blue;
+  position: absolute;
+  top: 0;
+  left: -1px;
+}
+.hijau {
+  background: green;
+  position: absolute;
+  left: -1px;
+  bottom: -1px;
+}
+.hitam {
+  background: black;
+  color: white;
+  position: sticky;
+  margin: auto;
+  margin-top: 350px;
+  top: 0;
+}
+.kuning {
+  background: yellow;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+nav {
+  font-size: 25px;
+  background-color: grey;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
